@@ -21,7 +21,7 @@ def send(link):
     msg['From'] = 'kilonet@1gb.ru Aleksei Marathon Mail'
     msg['To'] = 'kpdpok@gmail.com'
 
-    html += '<br><br>Вот тебе линк на <a href="%s">марафон</a>' % (link)
+    html += 'Вот тебе линк на <a href="%s">марафон</a>' % (link)
     part1 = MIMEText(html, 'html')
     msg.attach(part1)
 
