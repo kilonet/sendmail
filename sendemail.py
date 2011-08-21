@@ -13,7 +13,7 @@ f.close()
 # Create a text/plain message
 msg = MIMEMultipart('alternative')
 msg['Subject'] = "hello py"
-msg['From'] = 'kilonet@1gb.ru Aleksei Marathon Mail'
+msg['From'] = 'kilonet@1gb.ru <Aleksei Marathon Mail>'
 msg['To'] = 'kpdpok@gmail.com'
 
 part1 = MIMEText(html, 'html')
