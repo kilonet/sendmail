@@ -7,8 +7,9 @@ from email.mime.text import MIMEText
 
 # Open a plain text file for reading.  For this example, assume that
 # the text file contains only ASCII characters.
-html = open('mail.txt', 'rb').read()
-html.close()
+f = open('mail.txt', 'rb')
+html = f.read()
+f.close()
 # Create a text/plain message
 msg = MIMEMultipart('alternative')
 msg['Subject'] = "hello py"
