@@ -17,7 +17,7 @@ msg['From'] = 'kilonet@1gb.ru'
 msg['To'] = 'kpdpok@gmail.com'
 
 part1 = MIMEText(html, 'html')
-print html
+msg.attach(part1)
 
 # Send the message via our own SMTP server, but don't include the
 # envelope header.
