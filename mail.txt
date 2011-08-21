@@ -1,7 +1,1 @@
-From: Aleksei Marathon Mail <kilonet@1gb.ru>
-To: Aleksei Pokrevskiy <kpdpok@gmail.com>
-MIME-Version: 1.0
-Content-type: text/html
-Subject: hello
-
 Пароли на <b>ваши</b> ресурсы сгруппированы по типам. Откройте нужный вам раздел:
