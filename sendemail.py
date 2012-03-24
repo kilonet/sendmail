@@ -27,9 +27,9 @@ def send(link):
 
     # Send the message via our own SMTP server, but don't include the
     # envelope header.
-    s = smtplib.SMTP('smtp-56.1gb.ru', port=465)
-    s.login('u268923', '842a19f4')
-    s.sendmail('kilonet@1gb.ru', ['kpdpok@gmail.com'], msg.as_string())
+    s = smtplib.SMTP('***', port=465)
+    s.login('***', '***')
+    s.sendmail('***', ['***'], msg.as_string())
     s.quit()
 
 if __name__ == '__main__':
